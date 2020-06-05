@@ -8,7 +8,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
 // This is going to serve to contact.js to load an image
-app.use(express.static('../Lesson-03-06/'));
+app.use(express.static('../Lesson-03-06/views/pages/'));
 
 // Our routes
 const routes = require('./routes');
